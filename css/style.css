@@ -1,40 +1,41 @@
 body{
-	margin: 0px;
+	margin:0px;
 	padding: 0px;
+	background:#f5f5f5 !important;
+}
+.navbar-inverse{
+    border-radius: 0px !important;
+    background: #36404a !important;
 }
 
-header{
-	width: 100%;
-	background: #353f49;
-	border-bottom: 2px solid #2f3336;
-
+.navbar-inverse a{
+	color:white !important;
+    font-size: 20px !important;
 }
 
-header .logo{
-	display: inline-block;
+.blockProduct{
+	background: rgba(255,0,0,0.6);
+	margin-top:-20px;
 }
-
-header .logo span {
-	color:white;
+main{
+	background: url("/home/user/gommehd.net/img/home.jpg")center !important;
+	height: 375px;
+	padding: 0px;
+	margin:0px;
+}
+.mainTextWraper{
+	max-width: 600px;
+	margin:auto;
+}
+/*#mainText1 h1{
+	display: block;
+	text-align: center;
+	color: white;
 	font-weight: bold;
-	font-size: 20px;
-	margin-left: 30px;
 }
-
-header .menuWraper{
-	float: right;
-	margin-right: 100px;
-	display: inline-block;
-	margin-top:5px;
-}
-
-header .menuWraper .headMenu li{
-	list-style-type:none;
-	display: inline-block;
-}
-
-header .menuWraper .headMenu a{
-	list-style-type:none;
-	color:white;
-	margin-left: 20px;
-}
+#mainText2 h1{
+	display: block;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+}*/

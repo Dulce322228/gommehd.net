@@ -1,38 +1,69 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app>
 <head>
 	<meta charset="UTF-8">
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
 	<title>MineCraftShop</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-	<script src = "script/jquery-migrate-1.4.1.min.js"></script>
-	<script src = "script/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	
 	<script src = "script/angular.min.js"></script>
+</script>
 </head>
 <body>
-	<header>
-		<section class="logo">
-			<span>GOMMEHD.NET</span>
-		</section>
-		<section class="menuWraper">
-			<nav class="headMenu">
-				<li><a href="#">Set you location</a></li>
-				<li><a href="#">START PAGE</a></li>
-				<li><a href="#">GAMES</a></li>
-				<li><a href="#">STATICS</a></li>
-				<li><a href="#">FORUM</a></li>
-				<li><a href="#">COMMUNITY</a></li>
-				<li><a href="#">SUPPORTS</a></li>
-				<span>BUCKET</span>
 
-				<span class = "russ">RUSSIMG</span>
-				<span class = "eng">ENGIMG</span>
-			</nav>
-		</section>
-	</header>
+<header>
+	<nav class="navbar navbar-inverse" role="navigation">
+  <div class="container">
+    <!-- Название компании и кнопка, которая отображается для мобильных устройств группируются для лучшего отображения при свертывании -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"><img src="img/logo.jpg"></a>
+    </div>
+ 
+    <!-- Группируем ссылки, формы, выпадающее меню и прочие элементы -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav #navLink">
+        <li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+</header>
+<main>
+	<div class = "mainTextWraper">
+		<span id = "mainText1"><h1>WILLKOMMEN AUF</h1></span>
+		<span id = "mainText2"><h1>GOMMEHD.NET!</h1></span>
+</div>
+</main>
 
-	<main>
+<section class="container">
+	<div class="row">
+		<div class="col-md-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita laboriosam a dolore repudiandae, libero quia quibusdam. Aperiam nam nihil quos impedit. Voluptate id labore alias a, recusandae saepe, ratione eius!</div>
+		<div class="col-md-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia velit esse voluptatibus aliquid! Cupiditate ipsum quisquam dignissimos minima, aut facilis quam maxime, minus, sint nobis ut. Exercitationem repellendus voluptatibus at!</div>
+		<div class="col-md-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere dolore ea vel eaque, dolores dignissimos excepturi. Obcaecati, saepe, ipsum molestiae quis laboriosam fugiat eos, assumenda consectetur dolorem doloremque expedita at.</div>
+		<div class="col-md-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum facilis, facere quisquam. Maiores nesciunt, provident eveniet sapiente! Voluptatibus voluptate voluptates ipsam dicta beatae molestias fuga ut vero sequi aliquid. Fugiat!</div>
+	</div>
+</section>
 
-	</main>
 </body>
 </html>
